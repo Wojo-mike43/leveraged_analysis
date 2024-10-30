@@ -4,13 +4,12 @@ This project analyzes the difference between regular and leveraged investments i
 
 **Assumptions:**
 
-There are several assumption for the model:
+*There are several assumption for the model:*
 - Equity earned in the account can be borrowed against, essentially maintaining 2x leverage throught the simulation.
 - Any decline in account equity results in the same margin loan being held, meaning that as equity declines the margin loan stays the same.
 - The strategy being tested is a simply buy and hold strategy. There is no selling to reduce the likleyhood of a margin call.
 
 **How it Works:**
-
 
 Inputs:
 - Data for the simulation is read in from a CSV file. This file contains data starting in 1993 and goes until Oct 1st of 2024.
