@@ -11,12 +11,12 @@ This project analyzes the difference between regular and leveraged investments i
 
 **How it Works:**
 
-Inputs:
+*Inputs:*
 - Data for the simulation is read in from a CSV file. This file contains data starting in 1993 and goes until Oct 1st of 2024.
 - Parameters such as the starting equity, yearly interest rate on margin loans, and maintinance requirements can be adjusted in the script.
 
 
-Calculations:
+*Calculations:*
 - Returns for a regular account are calculated using $SPY yearly returns.
 - Leveraged Account is modeled wtih an initial loan equal to the starting equity. As the equity increases, additional funds are borrowed to maintain 2x leverage. The account includes:
   - Margin Interest: Compounded monthly, based on the specified yearly interest rate.
