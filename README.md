@@ -2,7 +2,7 @@
 
 This project analyzes the difference between regular and leveraged investments in the S&P 500 index through its proxy $SPY. The script utilized `pandas` to model both a regular and leveraged investment account, and takes into consideration factors such as interest on margin loans, margin maintinance requirements, and potential margin calls. Additionally, it backtests from every possible starting date to assess how the starting date impacts returns.
 
-**Assumptions**
+**Assumptions:**
 
 There are several assumption for the model:
 - Equity earned in the account can be borrowed against, essentially maintaining 2x leverage throught the simulation.
